@@ -49,7 +49,7 @@ docker build -t inscribed-app .
 To run the Docker container, use the following command:
 
 ```sh
-docker run -p 3000:3000 inscribed-app
+docker run -p 5173:5173 inscribed-app
 ```
 
 ### Using Docker Compose
@@ -71,6 +71,12 @@ docker-compose up
   - integrated google fonts
   - export: gif, iframe embed
   - full-screen presentation mode
+
+- [04/03/2025] Added Docker support
+  - Added Dockerfile to build the application
+  - Added docker-compose.yml to manage multi-container applications
+  - Added GitHub Actions workflow to build and push Docker images
+  - Updated README with Docker instructions
 
 ---
 

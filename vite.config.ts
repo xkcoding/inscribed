@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
+    include: ['@emotion/react', '@emotion/styled', '@excalidraw/excalidraw', '@mui/material', 'gif.js', 'idb-keyval', 'react', 'react-colorful', 'react-dom', 'zustand'],
   },
   define: {
     // Required for Excalidraw
