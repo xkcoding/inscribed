@@ -34,6 +34,32 @@ A slide-based tool for fast sketching and animating ideas.
 4. Install dependencies: `pnpm install`
 5. Start the development server: `pnpm dev`
 
+## Docker Instructions
+
+### Building the Docker Image
+
+To build the Docker image for the application, run the following command:
+
+```sh
+docker build -t inscribed-app .
+```
+
+### Running the Docker Container
+
+To run the Docker container, use the following command:
+
+```sh
+docker run -p 3000:3000 inscribed-app
+```
+
+### Using Docker Compose
+
+You can also use Docker Compose to manage the application. To start the application with Docker Compose, run:
+
+```sh
+docker-compose up
+```
+
 ## Changelog
 
 - [23/2/2025] [v1.0.2](https://github.com/chunrapeepat/inscribed/pull/5) - slide bar ux improvement
